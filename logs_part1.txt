@@ -1,0 +1,198 @@
+User@Computer MINGW64 ~/Desktop/HW1-GIT (feature4)
+$ git reflog
+9d78e95 (HEAD -> feature4, origin/feature4) HEAD@{0}: checkout: moving from feature3 to feature4
+f3b8bad (origin/feature3, feature3) HEAD@{1}: checkout: moving from feature2 to feature3
+ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{2}: checkout: moving from feature1 to feature2
+ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{3}: checkout: moving from develop to feature1
+80576f3 (origin/master, origin/develop, master, develop) HEAD@{4}: checkout: moving from master to develop
+80576f3 (origin/master, origin/develop, master, develop) HEAD@{5}: merge develop: Fast-forward
+ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{6}: checkout: moving from develop to master
+80576f3 (origin/master, origin/develop, master, develop) HEAD@{7}: rebase (continue) (finish): returning to refs/heads/develop
+80576f3 (origin/master, origin/develop, master, develop) HEAD@{8}: commit: mannualy solution
+f3b8bad (origin/feature3, feature3) HEAD@{9}: rebase (start): checkout master
+9d78e95 (HEAD -> feature4, origin/feature4) HEAD@{10}: checkout: moving from feature4 to develop
+9d78e95 (HEAD -> feature4, origin/feature4) HEAD@{11}: rebase (finish): returning to refs/heads/feature4
+9d78e95 (HEAD -> feature4, origin/feature4) HEAD@{12}: rebase (start): checkout develop
+ff1a582 HEAD@{13}: rebase (abort): updating HEAD
+9d78e95 (HEAD -> feature4, origin/feature4) HEAD@{14}: checkout: moving from develop to develop
+9d78e95 (HEAD -> feature4, origin/feature4) HEAD@{15}: commit (merge): solve again
+f3b8bad (origin/feature3, feature3) HEAD@{16}: checkout: moving from 474545e7a5676399d57d1cabf0023ade5b681517 to develop
+474545e HEAD@{17}: commit: resolve conflict mannualy
+f3b8bad (origin/feature3, feature3) HEAD@{18}: rebase (start): checkout develop
+ff1a582 HEAD@{19}: checkout: moving from develop to feature4
+f3b8bad (origin/feature3, feature3) HEAD@{20}: merge feature3: Fast-forward
+ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{21}: checkout: moving from feature3 to develop
+f3b8bad (origin/feature3, feature3) HEAD@{22}: checkout: moving from develop to feature3
+ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{23}: checkout: moving from feature4 to develop
+ff1a582 HEAD@{24}: checkout: moving from feature3 to feature4
+f3b8bad (origin/feature3, feature3) HEAD@{25}: checkout: moving from develop to feature3
+
+User@Computer MINGW64 ~/Desktop/HW1-GIT (feature4)
+$ git checkout feature3
+Switched to branch 'feature3'
+Your branch is up to date with 'origin/feature3'.
+
+User@Computer MINGW64 ~/Desktop/HW1-GIT (feature3)
+$ git reflog
+f3b8bad (HEAD -> feature3, origin/feature3) HEAD@{0}: checkout: moving from feature4 to feature3
+9d78e95 (origin/feature4, feature4) HEAD@{1}: checkout: moving from feature3 to feature4
+f3b8bad (HEAD -> feature3, origin/feature3) HEAD@{2}: checkout: moving from feature2 to feature3
+ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{3}: checkout: moving from feature1 to feature2
+ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{4}: checkout: moving from develop to feature1
+80576f3 (origin/master, origin/develop, master, develop) HEAD@{5}: checkout: moving from master to develop
+80576f3 (origin/master, origin/develop, master, develop) HEAD@{6}: merge develop: Fast-forward
+ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{7}: checkout: moving from develop to master
+80576f3 (origin/master, origin/develop, master, develop) HEAD@{8}: rebase (continue) (finish): returning to refs/heads/develop
+80576f3 (origin/master, origin/develop, master, develop) HEAD@{9}: commit: mannualy solution
+f3b8bad (HEAD -> feature3, origin/feature3) HEAD@{10}: rebase (start): checkout master
+9d78e95 (origin/feature4, feature4) HEAD@{11}: checkout: moving from feature4 to develop
+9d78e95 (origin/feature4, feature4) HEAD@{12}: rebase (finish): returning to refs/heads/feature4
+9d78e95 (origin/feature4, feature4) HEAD@{13}: rebase (start): checkout develop
+ff1a582 HEAD@{14}: rebase (abort): updating HEAD
+9d78e95 (origin/feature4, feature4) HEAD@{15}: checkout: moving from develop to develop
+9d78e95 (origin/feature4, feature4) HEAD@{16}: commit (merge): solve again
+f3b8bad (HEAD -> feature3, origin/feature3) HEAD@{17}: checkout: moving from 474545e7a5676399d57d1cabf0023ade5b681517 to develop
+474545e HEAD@{18}: commit: resolve conflict mannualy
+f3b8bad (HEAD -> feature3, origin/feature3) HEAD@{19}: rebase (start): checkout develop
+ff1a582 HEAD@{20}: checkout: moving from develop to feature4
+f3b8bad (HEAD -> feature3, origin/feature3) HEAD@{21}: merge feature3: Fast-forward
+ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{22}: checkout: moving from feature3 to develop
+f3b8bad (HEAD -> feature3, origin/feature3) HEAD@{23}: checkout: moving from develop to feature3
+ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{24}: checkout: moving from feature4 to develop
+
+User@Computer MINGW64 ~/Desktop/HW1-GIT (feature3)
+$ git checkout feature2
+Switched to branch 'feature2'
+Your branch is up to date with 'origin/feature2'.
+
+User@Computer MINGW64 ~/Desktop/HW1-GIT (feature2)
+$ git reflog
+ced7add (HEAD -> feature2, origin/feature2, origin/feature1, feature1) HEAD@{0}: checkout: moving from feature3 to feature2
+f3b8bad (origin/feature3, feature3) HEAD@{1}: checkout: moving from feature4 to feature3
+9d78e95 (origin/feature4, feature4) HEAD@{2}: checkout: moving from feature3 to feature4
+f3b8bad (origin/feature3, feature3) HEAD@{3}: checkout: moving from feature2 to feature3
+ced7add (HEAD -> feature2, origin/feature2, origin/feature1, feature1) HEAD@{4}: checkout: moving from feature1 to feature2
+ced7add (HEAD -> feature2, origin/feature2, origin/feature1, feature1) HEAD@{5}: checkout: moving from develop to feature1
+80576f3 (origin/master, origin/develop, master, develop) HEAD@{6}: checkout: moving from master to develop
+80576f3 (origin/master, origin/develop, master, develop) HEAD@{7}: merge develop: Fast-forward
+ced7add (HEAD -> feature2, origin/feature2, origin/feature1, feature1) HEAD@{8}: checkout: moving from develop to master
+80576f3 (origin/master, origin/develop, master, develop) HEAD@{9}: rebase (continue) (finish): returning to refs/heads/develop
+80576f3 (origin/master, origin/develop, master, develop) HEAD@{10}: commit: mannualy solution
+f3b8bad (origin/feature3, feature3) HEAD@{11}: rebase (start): checkout master
+9d78e95 (origin/feature4, feature4) HEAD@{12}: checkout: moving from feature4 to develop
+9d78e95 (origin/feature4, feature4) HEAD@{13}: rebase (finish): returning to refs/heads/feature4
+9d78e95 (origin/feature4, feature4) HEAD@{14}: rebase (start): checkout develop
+ff1a582 HEAD@{15}: rebase (abort): updating HEAD
+9d78e95 (origin/feature4, feature4) HEAD@{16}: checkout: moving from develop to develop
+9d78e95 (origin/feature4, feature4) HEAD@{17}: commit (merge): solve again
+f3b8bad (origin/feature3, feature3) HEAD@{18}: checkout: moving from 474545e7a5676399d57d1cabf0023ade5b681517 to develop
+474545e HEAD@{19}: commit: resolve conflict mannualy
+f3b8bad (origin/feature3, feature3) HEAD@{20}: rebase (start): checkout develop
+ff1a582 HEAD@{21}: checkout: moving from develop to feature4
+f3b8bad (origin/feature3, feature3) HEAD@{22}: merge feature3: Fast-forward
+ced7add (HEAD -> feature2, origin/feature2, origin/feature1, feature1) HEAD@{23}: checkout: moving from feature3 to develop
+f3b8bad (origin/feature3, feature3) HEAD@{24}: checkout: moving from develop to feature3
+ced7add (HEAD -> feature2, origin/feature2, origin/feature1, feature1) HEAD@{25}: checkout: moving from feature4 to develop
+ff1a582 HEAD@{26}: checkout: moving from feature3 to feature4
+
+User@Computer MINGW64 ~/Desktop/HW1-GIT (feature2)
+$ git checkout feature1
+Switched to branch 'feature1'
+Your branch is up to date with 'origin/feature1'.
+
+User@Computer MINGW64 ~/Desktop/HW1-GIT (feature1)
+$ git reflog
+ced7add (HEAD -> feature1, origin/feature2, origin/feature1, feature2) HEAD@{0}: checkout: moving from feature2 to feature1
+ced7add (HEAD -> feature1, origin/feature2, origin/feature1, feature2) HEAD@{1}: checkout: moving from feature3 to feature2
+f3b8bad (origin/feature3, feature3) HEAD@{2}: checkout: moving from feature4 to feature3
+9d78e95 (origin/feature4, feature4) HEAD@{3}: checkout: moving from feature3 to feature4
+f3b8bad (origin/feature3, feature3) HEAD@{4}: checkout: moving from feature2 to feature3
+ced7add (HEAD -> feature1, origin/feature2, origin/feature1, feature2) HEAD@{5}: checkout: moving from feature1 to feature2
+ced7add (HEAD -> feature1, origin/feature2, origin/feature1, feature2) HEAD@{6}: checkout: moving from develop to feature1
+80576f3 (origin/master, origin/develop, master, develop) HEAD@{7}: checkout: moving from master to develop
+80576f3 (origin/master, origin/develop, master, develop) HEAD@{8}: merge develop: Fast-forward
+ced7add (HEAD -> feature1, origin/feature2, origin/feature1, feature2) HEAD@{9}: checkout: moving from develop to master
+80576f3 (origin/master, origin/develop, master, develop) HEAD@{10}: rebase (continue) (finish): returning to refs/heads/develop
+80576f3 (origin/master, origin/develop, master, develop) HEAD@{11}: commit: mannualy solution
+f3b8bad (origin/feature3, feature3) HEAD@{12}: rebase (start): checkout master
+9d78e95 (origin/feature4, feature4) HEAD@{13}: checkout: moving from feature4 to develop
+9d78e95 (origin/feature4, feature4) HEAD@{14}: rebase (finish): returning to refs/heads/feature4
+9d78e95 (origin/feature4, feature4) HEAD@{15}: rebase (start): checkout develop
+ff1a582 HEAD@{16}: rebase (abort): updating HEAD
+9d78e95 (origin/feature4, feature4) HEAD@{17}: checkout: moving from develop to develop
+9d78e95 (origin/feature4, feature4) HEAD@{18}: commit (merge): solve again
+f3b8bad (origin/feature3, feature3) HEAD@{19}: checkout: moving from 474545e7a5676399d57d1cabf0023ade5b681517 to develop
+474545e HEAD@{20}: commit: resolve conflict mannualy
+f3b8bad (origin/feature3, feature3) HEAD@{21}: rebase (start): checkout develop
+ff1a582 HEAD@{22}: checkout: moving from develop to feature4
+f3b8bad (origin/feature3, feature3) HEAD@{23}: merge feature3: Fast-forward
+ced7add (HEAD -> feature1, origin/feature2, origin/feature1, feature2) HEAD@{24}: checkout: moving from feature3 to develop
+f3b8bad (origin/feature3, feature3) HEAD@{25}: checkout: moving from develop to feature3
+
+User@Computer MINGW64 ~/Desktop/HW1-GIT (feature1)
+$ git checkout develop
+Switched to branch 'develop'
+Your branch is up to date with 'origin/develop'.
+
+User@Computer MINGW64 ~/Desktop/HW1-GIT (develop)
+$ git reflog
+80576f3 (HEAD -> develop, origin/master, origin/develop, master) HEAD@{0}: checkout: moving from feature1 to develop
+ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{1}: checkout: moving from feature2 to feature1
+ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{2}: checkout: moving from feature3 to feature2
+f3b8bad (origin/feature3, feature3) HEAD@{3}: checkout: moving from feature4 to feature3
+9d78e95 (origin/feature4, feature4) HEAD@{4}: checkout: moving from feature3 to feature4
+f3b8bad (origin/feature3, feature3) HEAD@{5}: checkout: moving from feature2 to feature3
+ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{6}: checkout: moving from feature1 to feature2
+ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{7}: checkout: moving from develop to feature1
+80576f3 (HEAD -> develop, origin/master, origin/develop, master) HEAD@{8}: checkout: moving from master to develop
+80576f3 (HEAD -> develop, origin/master, origin/develop, master) HEAD@{9}: merge develop: Fast-forward
+ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{10}: checkout: moving from develop to master
+80576f3 (HEAD -> develop, origin/master, origin/develop, master) HEAD@{11}: rebase (continue) (finish): returning to refs/heads/develop
+80576f3 (HEAD -> develop, origin/master, origin/develop, master) HEAD@{12}: commit: mannualy solution
+f3b8bad (origin/feature3, feature3) HEAD@{13}: rebase (start): checkout master
+9d78e95 (origin/feature4, feature4) HEAD@{14}: checkout: moving from feature4 to develop
+9d78e95 (origin/feature4, feature4) HEAD@{15}: rebase (finish): returning to refs/heads/feature4
+9d78e95 (origin/feature4, feature4) HEAD@{16}: rebase (start): checkout develop
+ff1a582 HEAD@{17}: rebase (abort): updating HEAD
+9d78e95 (origin/feature4, feature4) HEAD@{18}: checkout: moving from develop to develop
+9d78e95 (origin/feature4, feature4) HEAD@{19}: commit (merge): solve again
+f3b8bad (origin/feature3, feature3) HEAD@{20}: checkout: moving from 474545e7a5676399d57d1cabf0023ade5b681517 to develop
+474545e HEAD@{21}: commit: resolve conflict mannualy
+f3b8bad (origin/feature3, feature3) HEAD@{22}: rebase (start): checkout develop
+ff1a582 HEAD@{23}: checkout: moving from develop to feature4
+f3b8bad (origin/feature3, feature3) HEAD@{24}: merge feature3: Fast-forward
+ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{25}: checkout: moving from feature3 to develop
+
+User@Computer MINGW64 ~/Desktop/HW1-GIT (develop)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+User@Computer MINGW64 ~/Desktop/HW1-GIT (master)
+$ git reflog
+80576f3 (HEAD -> master, origin/master, origin/develop, develop) HEAD@{0}: checkout: moving from develop to master
+80576f3 (HEAD -> master, origin/master, origin/develop, develop) HEAD@{1}: checkout: moving from feature1 to develop
+ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{2}: checkout: moving from feature2 to feature1
+ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{3}: checkout: moving from feature3 to feature2
+f3b8bad (origin/feature3, feature3) HEAD@{4}: checkout: moving from feature4 to feature3
+9d78e95 (origin/feature4, feature4) HEAD@{5}: checkout: moving from feature3 to feature4
+f3b8bad (origin/feature3, feature3) HEAD@{6}: checkout: moving from feature2 to feature3
+ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{7}: checkout: moving from feature1 to feature2
+ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{8}: checkout: moving from develop to feature1
+80576f3 (HEAD -> master, origin/master, origin/develop, develop) HEAD@{9}: checkout: moving from master to develop
+80576f3 (HEAD -> master, origin/master, origin/develop, develop) HEAD@{10}: merge develop: Fast-forward
+ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{11}: checkout: moving from develop to master
+80576f3 (HEAD -> master, origin/master, origin/develop, develop) HEAD@{12}: rebase (continue) (finish): returning to refs/heads/develop
+80576f3 (HEAD -> master, origin/master, origin/develop, develop) HEAD@{13}: commit: mannualy solution
+f3b8bad (origin/feature3, feature3) HEAD@{14}: rebase (start): checkout master
+9d78e95 (origin/feature4, feature4) HEAD@{15}: checkout: moving from feature4 to develop
+9d78e95 (origin/feature4, feature4) HEAD@{16}: rebase (finish): returning to refs/heads/feature4
+9d78e95 (origin/feature4, feature4) HEAD@{17}: rebase (start): checkout develop
+ff1a582 HEAD@{18}: rebase (abort): updating HEAD
+9d78e95 (origin/feature4, feature4) HEAD@{19}: checkout: moving from develop to develop
+9d78e95 (origin/feature4, feature4) HEAD@{20}: commit (merge): solve again
+f3b8bad (origin/feature3, feature3) HEAD@{21}: checkout: moving from 474545e7a5676399d57d1cabf0023ade5b681517 to develop
+474545e HEAD@{22}: commit: resolve conflict mannualy
+f3b8bad (origin/feature3, feature3) HEAD@{23}: rebase (start): checkout develop
+ff1a582 HEAD@{24}: checkout: moving from develop to feature4
+f3b8bad (origin/feature3, feature3) HEAD@{25}: merge feature3: Fast-forward
