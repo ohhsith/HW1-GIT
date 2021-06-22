@@ -1,0 +1,84 @@
+User@Computer MINGW64 ~/Desktop/HW1-GIT (feature5)
+$ git reflog
+20bed98 (HEAD -> feature5, origin/feature5, origin/develop, develop) HEAD@{0}: checkout: moving from develop to feature5
+20bed98 (HEAD -> feature5, origin/feature5, origin/develop, develop) HEAD@{1}: checkout: moving from master to develop
+cd08aab (origin/master, master) HEAD@{2}: merge develop: Merge made by the 'recursive' strategy.
+1911fe5 HEAD@{3}: checkout: moving from develop to master
+20bed98 (HEAD -> feature5, origin/feature5, origin/develop, develop) HEAD@{4}: merge feature5: Fast-forward
+80576f3 HEAD@{5}: checkout: moving from feature5 to develop
+20bed98 (HEAD -> feature5, origin/feature5, origin/develop, develop) HEAD@{6}: rebase (skip): updating HEAD
+20bed98 (HEAD -> feature5, origin/feature5, origin/develop, develop) HEAD@{7}: rebase (finish): returning to refs/heads/feature5
+20bed98 (HEAD -> feature5, origin/feature5, origin/develop, develop) HEAD@{8}: rebase (start): checkout HEAD~2
+20bed98 (HEAD -> feature5, origin/feature5, origin/develop, develop) HEAD@{9}: rebase (finish): returning to refs/heads/feature5
+20bed98 (HEAD -> feature5, origin/feature5, origin/develop, develop) HEAD@{10}: rebase (squash): index.html changed again
+a99f254 HEAD@{11}: rebase (start): checkout HEAD~2
+8c0bf91 HEAD@{12}: commit: index.html file changed one more time
+a99f254 HEAD@{13}: commit: index.html changed again
+80576f3 HEAD@{14}: checkout: moving from develop to feature5
+80576f3 HEAD@{15}: checkout: moving from master to develop
+1911fe5 HEAD@{16}: commit: logs_part1.txt commited
+80576f3 HEAD@{17}: checkout: moving from develop to master
+80576f3 HEAD@{18}: checkout: moving from feature1 to develop
+ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{19}: checkout: moving from feature2 to feature1
+ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{20}: checkout: moving from feature3 to feature2
+f3b8bad (origin/feature3, feature3) HEAD@{21}: checkout: moving from feature4 to feature3
+9d78e95 (origin/feature4, feature4) HEAD@{22}: checkout: moving from feature3 to feature4
+f3b8bad (origin/feature3, feature3) HEAD@{23}: checkout: moving from feature2 to feature3
+ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{24}: checkout: moving from feature1 to feature2
+ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{25}: checkout: moving from develop to feature1
+80576f3 HEAD@{26}: checkout: moving from master to develop
+80576f3 HEAD@{27}: merge develop: Fast-forward
+ut: moving from develop to master
+
+User@Computer MINGW64 ~/Desktop/HW1-GIT (feature5)
+$ git checkout develop
+Switched to branch 'develop'
+Your branch is up to date with 'origin/develop'.
+
+User@Computer MINGW64 ~/Desktop/HW1-GIT (develop)
+$ git reflog
+20bed98 (HEAD -> develop, origin/feature5, origin/develop, feature5) HEAD@{0}: checkout: moving from feature5 to develop
+20bed98 (HEAD -> develop, origin/feature5, origin/develop, feature5) HEAD@{1}: checkout: moving from develop to feature5
+20bed98 (HEAD -> develop, origin/feature5, origin/develop, feature5) HEAD@{2}: checkout: moving from master to develop
+cd08aab (origin/master, master) HEAD@{3}: merge develop: Merge made by the 'recursive' strategy.
+1911fe5 HEAD@{4}: checkout: moving from develop to master
+20bed98 (HEAD -> develop, origin/feature5, origin/develop, feature5) HEAD@{5}: merge feature5: Fast-forward
+80576f3 HEAD@{6}: checkout: moving from feature5 to develop
+20bed98 (HEAD -> develop, origin/feature5, origin/develop, feature5) HEAD@{7}: rebase (skip): updating HEAD
+20bed98 (HEAD -> develop, origin/feature5, origin/develop, feature5) HEAD@{8}: rebase (finish): returning to refs/heads/feature5
+20bed98 (HEAD -> develop, origin/feature5, origin/develop, feature5) HEAD@{9}: rebase (start): checkout HEAD~2
+20bed98 (HEAD -> develop, origin/feature5, origin/develop, feature5) HEAD@{10}: rebase (finish): returning to refs/heads/feature5
+20bed98 (HEAD -> develop, origin/feature5, origin/develop, feature5) HEAD@{11}: rebase (squash): index.html changed again
+a99f254 HEAD@{12}: rebase (start): checkout HEAD~2
+8c0bf91 HEAD@{13}: commit: index.html file changed one more time
+a99f254 HEAD@{14}: commit: index.html changed again
+80576f3 HEAD@{15}: checkout: moving from develop to feature5
+80576f3 HEAD@{16}: checkout: moving from master to develop
+1911fe5 HEAD@{17}: commit: logs_part1.txt commited
+80576f3 HEAD@{18}: checkout: moving from develop to master
+
+User@Computer MINGW64 ~/Desktop/HW1-GIT (develop)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+User@Computer MINGW64 ~/Desktop/HW1-GIT (master)
+$ git reflog
+cd08aab (HEAD -> master, origin/master) HEAD@{0}: checkout: moving from develop to master
+20bed98 (origin/feature5, origin/develop, feature5, develop) HEAD@{1}: checkout: moving from feature5 to develop
+20bed98 (origin/feature5, origin/develop, feature5, develop) HEAD@{2}: checkout: moving from develop to feature5
+20bed98 (origin/feature5, origin/develop, feature5, develop) HEAD@{3}: checkout: moving from master to develop
+cd08aab (HEAD -> master, origin/master) HEAD@{4}: merge develop: Merge made by the 'recursive' strategy.
+1911fe5 HEAD@{5}: checkout: moving from develop to master
+20bed98 (origin/feature5, origin/develop, feature5, develop) HEAD@{6}: merge feature5: Fast-forward
+80576f3 HEAD@{7}: checkout: moving from feature5 to develop
+20bed98 (origin/feature5, origin/develop, feature5, develop) HEAD@{8}: rebase (skip): updating HEAD
+20bed98 (origin/feature5, origin/develop, feature5, develop) HEAD@{9}: rebase (finish): returning to refs/heads/feature5
+20bed98 (origin/feature5, origin/develop, feature5, develop) HEAD@{10}: rebase (start): checkout HEAD~2
+20bed98 (origin/feature5, origin/develop, feature5, develop) HEAD@{11}: rebase (finish): returning to refs/heads/feature5
+20bed98 (origin/feature5, origin/develop, feature5, develop) HEAD@{12}: rebase (squash): index.html changed again
+a99f254 HEAD@{13}: rebase (start): checkout HEAD~2
+8c0bf91 HEAD@{14}: commit: index.html file changed one more time
+a99f254 HEAD@{15}: commit: index.html changed again
+80576f3 HEAD@{16}: checkout: moving from develop to feature5
+80576f3 HEAD@{17}: checkout: moving from master to develop
