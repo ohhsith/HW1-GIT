@@ -1,5 +1,5 @@
-User@Computer MINGW64 ~/Desktop/HW1-GIT (feature5)
-$ git reflog
+--feature5--
+
 20bed98 (HEAD -> feature5, origin/feature5, origin/develop, develop) HEAD@{0}: checkout: moving from develop to feature5
 20bed98 (HEAD -> feature5, origin/feature5, origin/develop, develop) HEAD@{1}: checkout: moving from master to develop
 cd08aab (origin/master, master) HEAD@{2}: merge develop: Merge made by the 'recursive' strategy.
@@ -30,13 +30,8 @@ ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{25}: checko
 80576f3 HEAD@{27}: merge develop: Fast-forward
 ut: moving from develop to master
 
-User@Computer MINGW64 ~/Desktop/HW1-GIT (feature5)
-$ git checkout develop
-Switched to branch 'develop'
-Your branch is up to date with 'origin/develop'.
+--develop--
 
-User@Computer MINGW64 ~/Desktop/HW1-GIT (develop)
-$ git reflog
 20bed98 (HEAD -> develop, origin/feature5, origin/develop, feature5) HEAD@{0}: checkout: moving from feature5 to develop
 20bed98 (HEAD -> develop, origin/feature5, origin/develop, feature5) HEAD@{1}: checkout: moving from develop to feature5
 20bed98 (HEAD -> develop, origin/feature5, origin/develop, feature5) HEAD@{2}: checkout: moving from master to develop
@@ -57,13 +52,8 @@ a99f254 HEAD@{14}: commit: index.html changed again
 1911fe5 HEAD@{17}: commit: logs_part1.txt commited
 80576f3 HEAD@{18}: checkout: moving from develop to master
 
-User@Computer MINGW64 ~/Desktop/HW1-GIT (develop)
-$ git checkout master
-Switched to branch 'master'
-Your branch is up to date with 'origin/master'.
+--master--
 
-User@Computer MINGW64 ~/Desktop/HW1-GIT (master)
-$ git reflog
 cd08aab (HEAD -> master, origin/master) HEAD@{0}: checkout: moving from develop to master
 20bed98 (origin/feature5, origin/develop, feature5, develop) HEAD@{1}: checkout: moving from feature5 to develop
 20bed98 (origin/feature5, origin/develop, feature5, develop) HEAD@{2}: checkout: moving from develop to feature5

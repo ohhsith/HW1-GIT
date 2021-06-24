@@ -1,5 +1,5 @@
-User@Computer MINGW64 ~/Desktop/HW1-GIT (feature4)
-$ git reflog
+--feature4--
+
 9d78e95 (HEAD -> feature4, origin/feature4) HEAD@{0}: checkout: moving from feature3 to feature4
 f3b8bad (origin/feature3, feature3) HEAD@{1}: checkout: moving from feature2 to feature3
 ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{2}: checkout: moving from feature1 to feature2
@@ -27,13 +27,9 @@ ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{23}: checko
 ff1a582 HEAD@{24}: checkout: moving from feature3 to feature4
 f3b8bad (origin/feature3, feature3) HEAD@{25}: checkout: moving from develop to feature3
 
-User@Computer MINGW64 ~/Desktop/HW1-GIT (feature4)
-$ git checkout feature3
-Switched to branch 'feature3'
-Your branch is up to date with 'origin/feature3'.
+--feature3--
 
-User@Computer MINGW64 ~/Desktop/HW1-GIT (feature3)
-$ git reflog
+
 f3b8bad (HEAD -> feature3, origin/feature3) HEAD@{0}: checkout: moving from feature4 to feature3
 9d78e95 (origin/feature4, feature4) HEAD@{1}: checkout: moving from feature3 to feature4
 f3b8bad (HEAD -> feature3, origin/feature3) HEAD@{2}: checkout: moving from feature2 to feature3
@@ -60,13 +56,8 @@ ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{22}: checko
 f3b8bad (HEAD -> feature3, origin/feature3) HEAD@{23}: checkout: moving from develop to feature3
 ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{24}: checkout: moving from feature4 to develop
 
-User@Computer MINGW64 ~/Desktop/HW1-GIT (feature3)
-$ git checkout feature2
-Switched to branch 'feature2'
-Your branch is up to date with 'origin/feature2'.
+--feature2--
 
-User@Computer MINGW64 ~/Desktop/HW1-GIT (feature2)
-$ git reflog
 ced7add (HEAD -> feature2, origin/feature2, origin/feature1, feature1) HEAD@{0}: checkout: moving from feature3 to feature2
 f3b8bad (origin/feature3, feature3) HEAD@{1}: checkout: moving from feature4 to feature3
 9d78e95 (origin/feature4, feature4) HEAD@{2}: checkout: moving from feature3 to feature4
@@ -95,13 +86,8 @@ f3b8bad (origin/feature3, feature3) HEAD@{24}: checkout: moving from develop to 
 ced7add (HEAD -> feature2, origin/feature2, origin/feature1, feature1) HEAD@{25}: checkout: moving from feature4 to develop
 ff1a582 HEAD@{26}: checkout: moving from feature3 to feature4
 
-User@Computer MINGW64 ~/Desktop/HW1-GIT (feature2)
-$ git checkout feature1
-Switched to branch 'feature1'
-Your branch is up to date with 'origin/feature1'.
+--feature1--
 
-User@Computer MINGW64 ~/Desktop/HW1-GIT (feature1)
-$ git reflog
 ced7add (HEAD -> feature1, origin/feature2, origin/feature1, feature2) HEAD@{0}: checkout: moving from feature2 to feature1
 ced7add (HEAD -> feature1, origin/feature2, origin/feature1, feature2) HEAD@{1}: checkout: moving from feature3 to feature2
 f3b8bad (origin/feature3, feature3) HEAD@{2}: checkout: moving from feature4 to feature3
@@ -129,13 +115,8 @@ f3b8bad (origin/feature3, feature3) HEAD@{23}: merge feature3: Fast-forward
 ced7add (HEAD -> feature1, origin/feature2, origin/feature1, feature2) HEAD@{24}: checkout: moving from feature3 to develop
 f3b8bad (origin/feature3, feature3) HEAD@{25}: checkout: moving from develop to feature3
 
-User@Computer MINGW64 ~/Desktop/HW1-GIT (feature1)
-$ git checkout develop
-Switched to branch 'develop'
-Your branch is up to date with 'origin/develop'.
+--develop--
 
-User@Computer MINGW64 ~/Desktop/HW1-GIT (develop)
-$ git reflog
 80576f3 (HEAD -> develop, origin/master, origin/develop, master) HEAD@{0}: checkout: moving from feature1 to develop
 ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{1}: checkout: moving from feature2 to feature1
 ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{2}: checkout: moving from feature3 to feature2
@@ -163,13 +144,8 @@ ff1a582 HEAD@{23}: checkout: moving from develop to feature4
 f3b8bad (origin/feature3, feature3) HEAD@{24}: merge feature3: Fast-forward
 ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{25}: checkout: moving from feature3 to develop
 
-User@Computer MINGW64 ~/Desktop/HW1-GIT (develop)
-$ git checkout master
-Switched to branch 'master'
-Your branch is up to date with 'origin/master'.
+--master--
 
-User@Computer MINGW64 ~/Desktop/HW1-GIT (master)
-$ git reflog
 80576f3 (HEAD -> master, origin/master, origin/develop, develop) HEAD@{0}: checkout: moving from develop to master
 80576f3 (HEAD -> master, origin/master, origin/develop, develop) HEAD@{1}: checkout: moving from feature1 to develop
 ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{2}: checkout: moving from feature2 to feature1
