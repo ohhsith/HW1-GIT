@@ -1,5 +1,4 @@
-User@Computer MINGW64 ~/Desktop/HW1-GIT (develop)
-$ git reflog
+
 92a2942 (HEAD -> develop, origin/develop) HEAD@{0}: cherry-pick: page2.html created
 ae58ee6 HEAD@{1}: checkout: moving from feature7 to develop
 7353965 (feature7) HEAD@{2}: commit: page2.html created
@@ -22,12 +21,6 @@ ae58ee6 HEAD@{10}: commit: changes added
 20bed98 (origin/feature5, feature5) HEAD@{19}: rebase (start): checkout develop
 9d78e95 (origin/feature4, feature4) HEAD@{20}: checkout: moving from develop to feature4
 
-User@Computer MINGW64 ~/Desktop/HW1-GIT (develop)
-$ git checkout feature7
-Switched to branch 'feature7'
-
-User@Computer MINGW64 ~/Desktop/HW1-GIT (feature7)
-$ git reflog
 7353965 (HEAD -> feature7) HEAD@{0}: checkout: moving from develop to feature7
 92a2942 (origin/develop, develop) HEAD@{1}: cherry-pick: page2.html created
 ae58ee6 HEAD@{2}: checkout: moving from feature7 to develop

@@ -1,6 +1,4 @@
 
-User@Computer MINGW64 ~/Desktop/HW1-GIT (master)
-$ git reflog
 d075369 (HEAD -> master, origin/master) HEAD@{0}: checkout: moving from feature1 to master
 ced7add (origin/feature2, origin/feature1, feature1) HEAD@{1}: checkout: moving from master to feature1
 d075369 (HEAD -> master, origin/master) HEAD@{2}: checkout: moving from develop to master
@@ -9,13 +7,7 @@ d075369 (HEAD -> master, origin/master) HEAD@{2}: checkout: moving from develop 
 bf6d4e0 HEAD@{5}: commit: index.html is updated
 20bed98 (origin/feature5, origin/develop, develop) HEAD@{6}: checkout: moving from master to develop
 
-User@Computer MINGW64 ~/Desktop/HW1-GIT (master)
-$ git checkout develop
-Switched to branch 'develop'
-Your branch is up to date with 'origin/develop'.
 
-User@Computer MINGW64 ~/Desktop/HW1-GIT (develop)
-$ git reflog
 20bed98 (HEAD -> develop, origin/feature5, origin/develop) HEAD@{0}: checkout: moving from master to develop
 d075369 (origin/master, master) HEAD@{1}: checkout: moving from feature1 to master
 ced7add (origin/feature2, origin/feature1, feature1) HEAD@{2}: checkout: moving from master to feature1
@@ -25,13 +17,6 @@ d075369 (origin/master, master) HEAD@{3}: checkout: moving from develop to maste
 bf6d4e0 HEAD@{6}: commit: index.html is updated
 20bed98 (HEAD -> develop, origin/feature5, origin/develop) HEAD@{7}: checkout: moving from master to develop
 
-User@Computer MINGW64 ~/Desktop/HW1-GIT (develop)
-$ git checkout feature1
-Switched to branch 'feature1'
-Your branch is up to date with 'origin/feature1'.
-
-User@Computer MINGW64 ~/Desktop/HW1-GIT (feature1)
-$ git reflog
 ced7add (HEAD -> feature1, origin/feature2, origin/feature1) HEAD@{0}: checkout: moving from develop to feature1
 20bed98 (origin/feature5, origin/develop, develop) HEAD@{1}: checkout: moving from master to develop
 d075369 (origin/master, master) HEAD@{2}: checkout: moving from feature1 to master
@@ -41,13 +26,7 @@ d075369 (origin/master, master) HEAD@{4}: checkout: moving from develop to maste
 118b262 HEAD@{6}: commit: README.md is updated
 bf6d4e0 HEAD@{7}: commit: index.html is updated
 
-User@Computer MINGW64 ~/Desktop/HW1-GIT (feature1)
-$ git checkout feature2
-Switched to a new branch 'feature2'
-Branch 'feature2' set up to track remote branch 'feature2' from 'origin'.
 
-User@Computer MINGW64 ~/Desktop/HW1-GIT (feature2)
-$ git reflog
 ced7add (HEAD -> feature2, origin/feature2, origin/feature1, feature1) HEAD@{0}: checkout: moving from feature1 to feature2
 ced7add (HEAD -> feature2, origin/feature2, origin/feature1, feature1) HEAD@{1}: checkout: moving from develop to feature1
 20bed98 (origin/feature5, origin/develop, develop) HEAD@{2}: checkout: moving from master to develop
@@ -58,13 +37,7 @@ d075369 (origin/master, master) HEAD@{5}: checkout: moving from develop to maste
 118b262 HEAD@{7}: commit: README.md is updated
 bf6d4e0 HEAD@{8}: commit: index.html is updated
 20bed98 (origin/feature5, origin/develop, develop) HEAD@{9}: checkout: moving from master to develop
-User@Computer MINGW64 ~/Desktop/HW1-GIT (feature2)
-$ git checkout feature3
-Switched to a new branch 'feature3'
-Branch 'feature3' set up to track remote branch 'feature3' from 'origin'.
 
-User@Computer MINGW64 ~/Desktop/HW1-GIT (feature3)
-$ git reflog
 f3b8bad (HEAD -> feature3, origin/feature3) HEAD@{0}: checkout: moving from feature2 to feature3
 ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{1}: checkout: moving from feature1 to feature2
 ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{2}: checkout: moving from develop to feature1
@@ -76,13 +49,7 @@ d075369 (origin/master, master) HEAD@{6}: checkout: moving from develop to maste
 118b262 HEAD@{8}: commit: README.md is updated
 bf6d4e0 HEAD@{9}: commit: index.html is updated
 20bed98 (origin/feature5, origin/develop, develop) HEAD@{10}: checkout: moving from master to develop
-User@Computer MINGW64 ~/Desktop/HW1-GIT (feature3)
-$ git checkout feature4
-Switched to a new branch 'feature4'
-Branch 'feature4' set up to track remote branch 'feature4' from 'origin'.
 
-User@Computer MINGW64 ~/Desktop/HW1-GIT (feature4)
-$ git reflog
 9d78e95 (HEAD -> feature4, origin/feature4) HEAD@{0}: checkout: moving from feature3 to feature4
 f3b8bad (origin/feature3, feature3) HEAD@{1}: checkout: moving from feature2 to feature3
 ced7add (origin/feature2, origin/feature1, feature2, feature1) HEAD@{2}: checkout: moving from feature1 to feature2
@@ -94,14 +61,7 @@ d075369 (origin/master, master) HEAD@{7}: checkout: moving from develop to maste
 20bed98 (origin/feature5, origin/develop, develop) HEAD@{8}: reset: moving to HEAD~2
 118b262 HEAD@{9}: commit: README.md is updated
 bf6d4e0 HEAD@{10}: commit: index.html is updated
-20bed98 (origin/feature5, origin/develop, develop) HEAD@{11}: checkout: moving from master to develop
-User@Computer MINGW64 ~/Desktop/HW1-GIT (feature4)
-$ git checkout feature5
-Switched to a new branch 'feature5'
-Branch 'feature5' set up to track remote branch 'feature5' from 'origin'.
 
-User@Computer MINGW64 ~/Desktop/HW1-GIT (feature5)
-$ git reflog
 20bed98 (HEAD -> feature5, origin/feature5, origin/develop, develop) HEAD@{0}: checkout: moving from feature4 to feature5
 9d78e95 (origin/feature4, feature4) HEAD@{1}: checkout: moving from feature3 to feature4
 f3b8bad (origin/feature3, feature3) HEAD@{2}: checkout: moving from feature2 to feature3
