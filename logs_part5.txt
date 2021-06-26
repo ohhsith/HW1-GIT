@@ -5,41 +5,8 @@ ae58ee6 HEAD@{1}: checkout: moving from feature7 to develop
 ae58ee6 HEAD@{3}: checkout: moving from develop to feature7
 ae58ee6 HEAD@{4}: checkout: moving from master to develop
 5f4fd3a (master) HEAD@{5}: commit: part4.txt added
-eb48e28 HEAD@{6}: checkout: moving from feature6 to master
-3b0a856 (feature6) HEAD@{7}: checkout: moving from develop to feature6
-ae58ee6 HEAD@{8}: checkout: moving from 9b595319c6fd78bf9fd216b64ada5a4300111d25 to develop
-9b59531 HEAD@{9}: checkout: moving from develop to 9b595319c6fd78bf9fd216b64ada5a4300111d25
-ae58ee6 HEAD@{10}: commit: changes added
-9b59531 HEAD@{11}: commit (merge): Merge branch 'feature6' into develop
-9a64e18 HEAD@{12}: commit: page.html changed from develop
-59af0e7 HEAD@{13}: checkout: moving from feature6 to develop
-3b0a856 (feature6) HEAD@{14}: commit: page.html changed
-59af0e7 HEAD@{15}: checkout: moving from develop to feature6
-59af0e7 HEAD@{16}: commit: page.html created
-20bed98 (origin/feature5, feature5) HEAD@{17}: checkout: moving from feature4 to develop
-9d78e95 (origin/feature4, feature4) HEAD@{18}: rebase (abort): updating HEAD
-20bed98 (origin/feature5, feature5) HEAD@{19}: rebase (start): checkout develop
-9d78e95 (origin/feature4, feature4) HEAD@{20}: checkout: moving from develop to feature4
 
 7353965 (HEAD -> feature7) HEAD@{0}: checkout: moving from develop to feature7
 92a2942 (origin/develop, develop) HEAD@{1}: cherry-pick: page2.html created
 ae58ee6 HEAD@{2}: checkout: moving from feature7 to develop
 7353965 (HEAD -> feature7) HEAD@{3}: commit: page2.html created
-ae58ee6 HEAD@{4}: checkout: moving from develop to feature7
-ae58ee6 HEAD@{5}: checkout: moving from master to develop
-5f4fd3a (master) HEAD@{6}: commit: part4.txt added
-eb48e28 HEAD@{7}: checkout: moving from feature6 to master
-3b0a856 (feature6) HEAD@{8}: checkout: moving from develop to feature6
-ae58ee6 HEAD@{9}: checkout: moving from 9b595319c6fd78bf9fd216b64ada5a4300111d25 to develop
-9b59531 HEAD@{10}: checkout: moving from develop to 9b595319c6fd78bf9fd216b64ada5a4300111d25
-ae58ee6 HEAD@{11}: commit: changes added
-9b59531 HEAD@{12}: commit (merge): Merge branch 'feature6' into develop
-9a64e18 HEAD@{13}: commit: page.html changed from develop
-59af0e7 HEAD@{14}: checkout: moving from feature6 to develop
-3b0a856 (feature6) HEAD@{15}: commit: page.html changed
-59af0e7 HEAD@{16}: checkout: moving from develop to feature6
-59af0e7 HEAD@{17}: commit: page.html created
-20bed98 (origin/feature5, feature5) HEAD@{18}: checkout: moving from feature4 to develop
-9d78e95 (origin/feature4, feature4) HEAD@{19}: rebase (abort): updating HEAD
-20bed98 (origin/feature5, feature5) HEAD@{20}: rebase (start): checkout develop
-9d78e95 (origin/feature4, feature4) HEAD@{21}: checkout: moving from develop to feature4
